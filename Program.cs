@@ -2,6 +2,7 @@
 using DesignPatterns.Behavioural.Strategy;
 using DesignPatterns.Structural.Composite.BasicExample;
 using DesignPatterns.Structural.Composite.RealWorldExample;
+using DesignPatterns.Structural.Facade;
 using DesignPatterns.Structural.Mediator;
 
 namespace DesignPatterns
@@ -16,6 +17,7 @@ namespace DesignPatterns
             ExecuteBasicCompositeExample.Execute();
             ExecuteRealWorldCompositeExample.Execute();
             ExecuteRealWorldCompositeExample.BuilderExecute();
+            ExecuteFacadePattern.Execute();
         }
     }
 }
