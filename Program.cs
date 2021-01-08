@@ -1,4 +1,6 @@
-﻿using DesignPatterns.Behavioural.Command;
+﻿using DesignPatterns.Behavioural.ChainOfResponsibility;
+using DesignPatterns.Behavioural.ChainOfResponsibility.RefactoringGuruExample;
+using DesignPatterns.Behavioural.Command;
 using DesignPatterns.Behavioural.Strategy;
 using DesignPatterns.Structural.Composite.BasicExample;
 using DesignPatterns.Structural.Composite.RealWorldExample;
@@ -18,6 +20,8 @@ namespace DesignPatterns
             ExecuteRealWorldCompositeExample.Execute();
             ExecuteRealWorldCompositeExample.BuilderExecute();
             ExecuteFacadePattern.Execute();
+            ExecuteChainOfResponsibilityPattern.Execute();
+            ExecuteCoRRefactoringGuru.Execute();
         }
     }
 }
